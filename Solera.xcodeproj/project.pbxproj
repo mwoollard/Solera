@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C21B7931C8727B900D9E74C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21B7921C8727B900D9E74C /* AppDelegate.swift */; };
+		2C21B7951C8727B900D9E74C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21B7941C8727B900D9E74C /* ViewController.swift */; };
+		2C21B7981C8727B900D9E74C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C21B7961C8727B900D9E74C /* Main.storyboard */; };
+		2C21B79A1C8727B900D9E74C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C21B7991C8727B900D9E74C /* Assets.xcassets */; };
+		2C21B79D1C8727B900D9E74C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C21B79B1C8727B900D9E74C /* LaunchScreen.storyboard */; };
+		2C21B7A81C8727B900D9E74C /* SoleraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21B7A71C8727B900D9E74C /* SoleraTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C21B7A41C8727B900D9E74C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C21B7871C8727B900D9E74C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C21B78E1C8727B900D9E74C;
+			remoteInfo = Solera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C21B78F1C8727B900D9E74C /* Solera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Solera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C21B7921C8727B900D9E74C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C21B7941C8727B900D9E74C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C21B7971C8727B900D9E74C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C21B7991C8727B900D9E74C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C21B79C1C8727B900D9E74C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C21B79E1C8727B900D9E74C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C21B7A31C8727B900D9E74C /* SoleraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoleraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C21B7A71C8727B900D9E74C /* SoleraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoleraTests.swift; sourceTree = "<group>"; };
+		2C21B7A91C8727B900D9E74C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C21B78C1C8727B900D9E74C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C21B7A01C8727B900D9E74C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C21B7861C8727B900D9E74C = {
+			isa = PBXGroup;
+			children = (
+				2C21B7911C8727B900D9E74C /* Solera */,
+				2C21B7A61C8727B900D9E74C /* SoleraTests */,
+				2C21B7901C8727B900D9E74C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C21B7901C8727B900D9E74C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C21B78F1C8727B900D9E74C /* Solera.app */,
+				2C21B7A31C8727B900D9E74C /* SoleraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C21B7911C8727B900D9E74C /* Solera */ = {
+			isa = PBXGroup;
+			children = (
+				2C21B7921C8727B900D9E74C /* AppDelegate.swift */,
+				2C21B7941C8727B900D9E74C /* ViewController.swift */,
+				2C21B7961C8727B900D9E74C /* Main.storyboard */,
+				2C21B7991C8727B900D9E74C /* Assets.xcassets */,
+				2C21B79B1C8727B900D9E74C /* LaunchScreen.storyboard */,
+				2C21B79E1C8727B900D9E74C /* Info.plist */,
+			);
+			path = Solera;
+			sourceTree = "<group>";
+		};
+		2C21B7A61C8727B900D9E74C /* SoleraTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C21B7A71C8727B900D9E74C /* SoleraTests.swift */,
+				2C21B7A91C8727B900D9E74C /* Info.plist */,
+			);
+			path = SoleraTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C21B78E1C8727B900D9E74C /* Solera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C21B7AC1C8727B900D9E74C /* Build configuration list for PBXNativeTarget "Solera" */;
+			buildPhases = (
+				2C21B78B1C8727B900D9E74C /* Sources */,
+				2C21B78C1C8727B900D9E74C /* Frameworks */,
+				2C21B78D1C8727B900D9E74C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Solera;
+			productName = Solera;
+			productReference = 2C21B78F1C8727B900D9E74C /* Solera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C21B7A21C8727B900D9E74C /* SoleraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C21B7AF1C8727B900D9E74C /* Build configuration list for PBXNativeTarget "SoleraTests" */;
+			buildPhases = (
+				2C21B79F1C8727B900D9E74C /* Sources */,
+				2C21B7A01C8727B900D9E74C /* Frameworks */,
+				2C21B7A11C8727B900D9E74C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C21B7A51C8727B900D9E74C /* PBXTargetDependency */,
+			);
+			name = SoleraTests;
+			productName = SoleraTests;
+			productReference = 2C21B7A31C8727B900D9E74C /* SoleraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C21B7871C8727B900D9E74C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Mark Woollard";
+				TargetAttributes = {
+					2C21B78E1C8727B900D9E74C = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					2C21B7A21C8727B900D9E74C = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 2C21B78E1C8727B900D9E74C;
+					};
+				};
+			};
+			buildConfigurationList = 2C21B78A1C8727B900D9E74C /* Build configuration list for PBXProject "Solera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C21B7861C8727B900D9E74C;
+			productRefGroup = 2C21B7901C8727B900D9E74C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C21B78E1C8727B900D9E74C /* Solera */,
+				2C21B7A21C8727B900D9E74C /* SoleraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C21B78D1C8727B900D9E74C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C21B79D1C8727B900D9E74C /* LaunchScreen.storyboard in Resources */,
+				2C21B79A1C8727B900D9E74C /* Assets.xcassets in Resources */,
+				2C21B7981C8727B900D9E74C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C21B7A11C8727B900D9E74C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C21B78B1C8727B900D9E74C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C21B7951C8727B900D9E74C /* ViewController.swift in Sources */,
+				2C21B7931C8727B900D9E74C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C21B79F1C8727B900D9E74C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C21B7A81C8727B900D9E74C /* SoleraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C21B7A51C8727B900D9E74C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C21B78E1C8727B900D9E74C /* Solera */;
+			targetProxy = 2C21B7A41C8727B900D9E74C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C21B7961C8727B900D9E74C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C21B7971C8727B900D9E74C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C21B79B1C8727B900D9E74C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C21B79C1C8727B900D9E74C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C21B7AA1C8727B900D9E74C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C21B7AB1C8727B900D9E74C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C21B7AD1C8727B900D9E74C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Solera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mwoollard.Solera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2C21B7AE1C8727B900D9E74C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Solera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mwoollard.Solera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2C21B7B01C8727B900D9E74C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SoleraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mwoollard.SoleraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solera.app/Solera";
+			};
+			name = Debug;
+		};
+		2C21B7B11C8727B900D9E74C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SoleraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mwoollard.SoleraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solera.app/Solera";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C21B78A1C8727B900D9E74C /* Build configuration list for PBXProject "Solera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C21B7AA1C8727B900D9E74C /* Debug */,
+				2C21B7AB1C8727B900D9E74C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C21B7AC1C8727B900D9E74C /* Build configuration list for PBXNativeTarget "Solera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C21B7AD1C8727B900D9E74C /* Debug */,
+				2C21B7AE1C8727B900D9E74C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2C21B7AF1C8727B900D9E74C /* Build configuration list for PBXNativeTarget "SoleraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C21B7B01C8727B900D9E74C /* Debug */,
+				2C21B7B11C8727B900D9E74C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C21B7871C8727B900D9E74C /* Project object */;
+}
