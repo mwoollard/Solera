@@ -8,11 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		2C21B7931C8727B900D9E74C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21B7921C8727B900D9E74C /* AppDelegate.swift */; };
-		2C21B7951C8727B900D9E74C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21B7941C8727B900D9E74C /* ViewController.swift */; };
+		2C21B7951C8727B900D9E74C /* BasketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21B7941C8727B900D9E74C /* BasketViewController.swift */; };
 		2C21B7981C8727B900D9E74C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C21B7961C8727B900D9E74C /* Main.storyboard */; };
 		2C21B79A1C8727B900D9E74C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C21B7991C8727B900D9E74C /* Assets.xcassets */; };
 		2C21B79D1C8727B900D9E74C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C21B79B1C8727B900D9E74C /* LaunchScreen.storyboard */; };
-		2C21B7A81C8727B900D9E74C /* SoleraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21B7A71C8727B900D9E74C /* SoleraTests.swift */; };
+		2C21B7B41C8727E800D9E74C /* CurrencyServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21B7B31C8727E800D9E74C /* CurrencyServiceType.swift */; };
+		2C21B7B61C872A0500D9E74C /* CurrencyLayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21B7B51C872A0500D9E74C /* CurrencyLayerService.swift */; };
+		2C21B7BA1C872BA300D9E74C /* NSCharacterSet-Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21B7B81C872BA300D9E74C /* NSCharacterSet-Extensions.swift */; };
+		2C21B7BB1C872BA300D9E74C /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21B7B91C872BA300D9E74C /* String+Extensions.swift */; };
+		2C21B7BD1C8736BB00D9E74C /* CurrencyLayerServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21B7BC1C8736BB00D9E74C /* CurrencyLayerServiceTests.swift */; };
+		2C21B7BE1C87370800D9E74C /* CurrencyLayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21B7B51C872A0500D9E74C /* CurrencyLayerService.swift */; };
+		2C21B7BF1C87370A00D9E74C /* CurrencyServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21B7B31C8727E800D9E74C /* CurrencyServiceType.swift */; };
+		2C21B7C01C87370D00D9E74C /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21B7B91C872BA300D9E74C /* String+Extensions.swift */; };
+		2C21B7C11C87371000D9E74C /* NSCharacterSet-Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21B7B81C872BA300D9E74C /* NSCharacterSet-Extensions.swift */; };
+		2C21B7C41C873CEA00D9E74C /* BasketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21B7C31C873CEA00D9E74C /* BasketViewModel.swift */; };
+		2C21B7C61C8767FD00D9E74C /* RatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21B7C51C8767FD00D9E74C /* RatePickerViewController.swift */; };
+		2C21B7C81C87685100D9E74C /* AcceptBasketViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21B7C71C87685100D9E74C /* AcceptBasketViewModelType.swift */; };
+		2C21B7CA1C87866700D9E74C /* BasketViewModelUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21B7C91C87866700D9E74C /* BasketViewModelUnitTests.swift */; };
+		2C21B7CB1C87869F00D9E74C /* BasketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21B7C31C873CEA00D9E74C /* BasketViewModel.swift */; };
+		2C21B7CD1C8786DF00D9E74C /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21B7CC1C8786DF00D9E74C /* TestData.swift */; };
+		2C21B7D01C87A41E00D9E74C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2C21B7CF1C87A41E00D9E74C /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +43,24 @@
 /* Begin PBXFileReference section */
 		2C21B78F1C8727B900D9E74C /* Solera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Solera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C21B7921C8727B900D9E74C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2C21B7941C8727B900D9E74C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C21B7941C8727B900D9E74C /* BasketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketViewController.swift; sourceTree = "<group>"; };
 		2C21B7971C8727B900D9E74C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C21B7991C8727B900D9E74C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C21B79C1C8727B900D9E74C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C21B79E1C8727B900D9E74C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C21B7A31C8727B900D9E74C /* SoleraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoleraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C21B7A71C8727B900D9E74C /* SoleraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoleraTests.swift; sourceTree = "<group>"; };
 		2C21B7A91C8727B900D9E74C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C21B7B31C8727E800D9E74C /* CurrencyServiceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyServiceType.swift; sourceTree = "<group>"; };
+		2C21B7B51C872A0500D9E74C /* CurrencyLayerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyLayerService.swift; sourceTree = "<group>"; };
+		2C21B7B81C872BA300D9E74C /* NSCharacterSet-Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSCharacterSet-Extensions.swift"; sourceTree = "<group>"; };
+		2C21B7B91C872BA300D9E74C /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		2C21B7BC1C8736BB00D9E74C /* CurrencyLayerServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyLayerServiceTests.swift; sourceTree = "<group>"; };
+		2C21B7C31C873CEA00D9E74C /* BasketViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasketViewModel.swift; sourceTree = "<group>"; };
+		2C21B7C51C8767FD00D9E74C /* RatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatePickerViewController.swift; sourceTree = "<group>"; };
+		2C21B7C71C87685100D9E74C /* AcceptBasketViewModelType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcceptBasketViewModelType.swift; sourceTree = "<group>"; };
+		2C21B7C91C87866700D9E74C /* BasketViewModelUnitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasketViewModelUnitTests.swift; sourceTree = "<group>"; };
+		2C21B7CC1C8786DF00D9E74C /* TestData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
+		2C21B7CF1C87A41E00D9E74C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +84,7 @@
 		2C21B7861C8727B900D9E74C = {
 			isa = PBXGroup;
 			children = (
+				2C21B7CF1C87A41E00D9E74C /* README.md */,
 				2C21B7911C8727B900D9E74C /* Solera */,
 				2C21B7A61C8727B900D9E74C /* SoleraTests */,
 				2C21B7901C8727B900D9E74C /* Products */,
@@ -77,10 +103,13 @@
 		2C21B7911C8727B900D9E74C /* Solera */ = {
 			isa = PBXGroup;
 			children = (
+				2C21B7B21C8727C600D9E74C /* Services */,
+				2C21B7C21C873B7E00D9E74C /* Models */,
+				2C21B7CE1C879BE300D9E74C /* Views */,
+				2C21B7B71C872B5600D9E74C /* Utilities */,
 				2C21B7921C8727B900D9E74C /* AppDelegate.swift */,
-				2C21B7941C8727B900D9E74C /* ViewController.swift */,
-				2C21B7961C8727B900D9E74C /* Main.storyboard */,
 				2C21B7991C8727B900D9E74C /* Assets.xcassets */,
+				2C21B7961C8727B900D9E74C /* Main.storyboard */,
 				2C21B79B1C8727B900D9E74C /* LaunchScreen.storyboard */,
 				2C21B79E1C8727B900D9E74C /* Info.plist */,
 			);
@@ -90,10 +119,48 @@
 		2C21B7A61C8727B900D9E74C /* SoleraTests */ = {
 			isa = PBXGroup;
 			children = (
-				2C21B7A71C8727B900D9E74C /* SoleraTests.swift */,
+				2C21B7CC1C8786DF00D9E74C /* TestData.swift */,
+				2C21B7BC1C8736BB00D9E74C /* CurrencyLayerServiceTests.swift */,
+				2C21B7C91C87866700D9E74C /* BasketViewModelUnitTests.swift */,
 				2C21B7A91C8727B900D9E74C /* Info.plist */,
 			);
 			path = SoleraTests;
+			sourceTree = "<group>";
+		};
+		2C21B7B21C8727C600D9E74C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2C21B7B31C8727E800D9E74C /* CurrencyServiceType.swift */,
+				2C21B7B51C872A0500D9E74C /* CurrencyLayerService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		2C21B7B71C872B5600D9E74C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				2C21B7B81C872BA300D9E74C /* NSCharacterSet-Extensions.swift */,
+				2C21B7B91C872BA300D9E74C /* String+Extensions.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		2C21B7C21C873B7E00D9E74C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2C21B7C31C873CEA00D9E74C /* BasketViewModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		2C21B7CE1C879BE300D9E74C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2C21B7C71C87685100D9E74C /* AcceptBasketViewModelType.swift */,
+				2C21B7941C8727B900D9E74C /* BasketViewController.swift */,
+				2C21B7C51C8767FD00D9E74C /* RatePickerViewController.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,7 +264,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C21B7951C8727B900D9E74C /* ViewController.swift in Sources */,
+				2C21B7C41C873CEA00D9E74C /* BasketViewModel.swift in Sources */,
+				2C21B7951C8727B900D9E74C /* BasketViewController.swift in Sources */,
+				2C21B7C61C8767FD00D9E74C /* RatePickerViewController.swift in Sources */,
+				2C21B7B41C8727E800D9E74C /* CurrencyServiceType.swift in Sources */,
+				2C21B7C81C87685100D9E74C /* AcceptBasketViewModelType.swift in Sources */,
+				2C21B7BA1C872BA300D9E74C /* NSCharacterSet-Extensions.swift in Sources */,
+				2C21B7B61C872A0500D9E74C /* CurrencyLayerService.swift in Sources */,
+				2C21B7BB1C872BA300D9E74C /* String+Extensions.swift in Sources */,
 				2C21B7931C8727B900D9E74C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,7 +280,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C21B7A81C8727B900D9E74C /* SoleraTests.swift in Sources */,
+				2C21B7CD1C8786DF00D9E74C /* TestData.swift in Sources */,
+				2C21B7C01C87370D00D9E74C /* String+Extensions.swift in Sources */,
+				2C21B7C11C87371000D9E74C /* NSCharacterSet-Extensions.swift in Sources */,
+				2C21B7BD1C8736BB00D9E74C /* CurrencyLayerServiceTests.swift in Sources */,
+				2C21B7BE1C87370800D9E74C /* CurrencyLayerService.swift in Sources */,
+				2C21B7BF1C87370A00D9E74C /* CurrencyServiceType.swift in Sources */,
+				2C21B7D01C87A41E00D9E74C /* README.md in Sources */,
+				2C21B7CB1C87869F00D9E74C /* BasketViewModel.swift in Sources */,
+				2C21B7CA1C87866700D9E74C /* BasketViewModelUnitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +413,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mwoollard.Solera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -342,6 +425,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mwoollard.Solera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -388,6 +472,7 @@
 				2C21B7AE1C8727B900D9E74C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C21B7AF1C8727B900D9E74C /* Build configuration list for PBXNativeTarget "SoleraTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +481,7 @@
 				2C21B7B11C8727B900D9E74C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
