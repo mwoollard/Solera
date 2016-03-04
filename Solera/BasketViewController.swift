@@ -104,16 +104,16 @@ class BasketViewController: UITableViewController {
         self.presentViewController(alert, animated: true, completion: nil)
         
         // Request checkout
-        viewModel.checkoutPrice() { price, error in
+        viewModel.checkoutPrice() { [weak self] price, error in
             
             // On completion dismiss alert and dislay error or result
-            self.dismissViewControllerAnimated(true) {
+            self?.dismissViewControllerAnimated(true) {
                 if let error = error {
-                    self.showError(error)
+                    self!.showError(error)
                 } else {
-                    let alert = UIAlertController(title: "Basket Total in \(self.viewModel.currency)", message: "\(self.formatter.stringFromNumber(price)!)", preferredStyle: .Alert)
+                    let alert = UIAlertController(title: "Basket Total in \(self!.viewModel.currency)", message: "\(self!.formatter.stringFromNumber(price)!)", preferredStyle: .Alert)
                     alert.addAction(UIAlertAction(title: "OK", style: .Default, handler: nil))
-                    self.presentViewController(alert, animated: true, completion: nil)
+                    self!.presentViewController(alert, animated: true, completion: nil)
                 }
             }
         }
@@ -144,15 +144,15 @@ class BasketViewController: UITableViewController {
         if !self.viewModel.ratesAreValid {
             let alert = UIAlertController(title: "Getting rates", message: nil, preferredStyle: .Alert)
             self.presentViewController(alert, animated: true, completion: nil)
-            viewModel.updateRates { error in
+            viewModel.updateRates { [weak self] error in
                 
-                self.dismissViewControllerAnimated(true) {
+                self?.dismissViewControllerAnimated(true) {
                     if let error = error {
-                        self.showError(error)
+                        self?.showError(error)
                     }
                 }
 
-                self.updateUIEnableState()
+                self?.updateUIEnableState()
             }
         }
     }

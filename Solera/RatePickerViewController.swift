@@ -72,18 +72,19 @@ class RatePickerViewController : UITableViewController, AcceptBasketViewModelTyp
         let cleanFilter = filter.stringByTrimmingWhiteSpace().uppercaseString
         self.searchQueue.cancelAllOperations()
         let op = NSBlockOperation()
-        op.addExecutionBlock() {
-            let sorted = self.viewModel!.rates!.keys.sort()
-            var filtered:[String]?
-            if filter.characters.count > 0 {
-                filtered = sorted.filter { $0.containsString(cleanFilter) }
-            } else {
-                filtered = sorted
-            }
-            if !op.cancelled {
-                NSOperationQueue.mainQueue().addOperationWithBlock {
-                    self.rates = filtered!
-                    self.tableView.reloadData()
+        op.addExecutionBlock() { [weak self] in
+            if let sorted = self?.viewModel!.rates!.keys.sort() {
+                var filtered:[String]?
+                if filter.characters.count > 0 {
+                    filtered = sorted.filter { $0.containsString(cleanFilter) }
+                } else {
+                    filtered = sorted
+                }
+                if !op.cancelled {
+                    NSOperationQueue.mainQueue().addOperationWithBlock {
+                        self?.rates = filtered!
+                        self?.tableView.reloadData()
+                    }
                 }
             }
         }
